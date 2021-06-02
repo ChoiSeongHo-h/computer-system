@@ -18,3 +18,19 @@ finish: addi    a0, x0, 1
         ecall # print integer ecall
         addi    a0, x0, 10
         ecall # terminate ecall
+
+
+
+#1.
+#.data means data section that is set of statically allocated data
+#.word means that to allocate 4byte data
+#.text means text section that used by program(excutable machine instructions).
+
+#2.
+#34, 9th fib num (0-indexed)
+
+#3.
+#0x10000010
+
+#4.
+#The value of memory address 0x10000010 was modified from (09 00 00 00) to (13 00 00 00). The output is 233
